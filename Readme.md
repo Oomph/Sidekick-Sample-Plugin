@@ -8,7 +8,7 @@ To properly set up your plugin, there are a few settings you'll have to customiz
 
 0. Remember that your code is being loaded into Sidekick's global namespace, so make an effort to use unique class names and prefixes. The following prefixes belong to us and should not be used: `SK`, `NL`, `AL`.
 1. Add `-undefined dynamic_lookup` to your linker flags.
-2. Set the `NLPluginVersion` key in your Info.plist to 1
+2. Set the `SKPluginVersion` key in your Info.plist to 1
 3. Set garbage collection to required (`GCC_ENABLE_OBJC_GC -fobjc-gc-only`)
 4. Subclass SKPlugin and make this subclass your bundle's principal class.
 5. Subclass SKAction to create your actions, and update the list returned by your plugin's `-actions` method.
