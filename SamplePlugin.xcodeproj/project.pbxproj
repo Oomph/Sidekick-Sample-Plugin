@@ -9,17 +9,34 @@
 /* Begin PBXBuildFile section */
 		8360B556144E62EA00E1FDF2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8360B555144E62EA00E1FDF2 /* Cocoa.framework */; };
 		8360B560144E62EA00E1FDF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8360B55E144E62EA00E1FDF2 /* InfoPlist.strings */; };
+		8360B5A2144E66E100E1FDF2 /* SPSamplePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8360B5A1144E66E100E1FDF2 /* SPSamplePlugin.m */; };
+		8360B5A5144E68C100E1FDF2 /* SPSampleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8360B5A4144E68C100E1FDF2 /* SPSampleAction.m */; };
+		8360B5A8144E6C4600E1FDF2 /* SPSampleActionOptionSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8360B5A7144E6C4600E1FDF2 /* SPSampleActionOptionSheetController.m */; };
+		8360B5AA144E6CB000E1FDF2 /* SampleAction.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8360B5A9144E6CB000E1FDF2 /* SampleAction.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8360B552144E62EA00E1FDF2 /* SamplePlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8360B552144E62EA00E1FDF2 /* SamplePlugin.skplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePlugin.skplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		8360B555144E62EA00E1FDF2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		8360B558144E62EA00E1FDF2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8360B559144E62EA00E1FDF2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8360B55A144E62EA00E1FDF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8360B55D144E62EA00E1FDF2 /* SamplePlugin-Info.plist */ = {isa = PBXFileReference; path = "SamplePlugin-Info.plist"; sourceTree = "<group>"; };
+		8360B55D144E62EA00E1FDF2 /* SamplePlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SamplePlugin-Info.plist"; sourceTree = "<group>"; };
 		8360B55F144E62EA00E1FDF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8360B561144E62EA00E1FDF2 /* SamplePlugin-Prefix.pch */ = {isa = PBXFileReference; path = "SamplePlugin-Prefix.pch"; sourceTree = "<group>"; };
+		8360B561144E62EA00E1FDF2 /* SamplePlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SamplePlugin-Prefix.pch"; sourceTree = "<group>"; };
+		8360B59A144E663200E1FDF2 /* SKAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAction.h; sourceTree = "<group>"; };
+		8360B59B144E663200E1FDF2 /* SKActionContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKActionContext.h; sourceTree = "<group>"; };
+		8360B59C144E663200E1FDF2 /* SKActionMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKActionMaster.h; sourceTree = "<group>"; };
+		8360B59D144E663200E1FDF2 /* SKOptionSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKOptionSheetController.h; sourceTree = "<group>"; };
+		8360B59E144E663200E1FDF2 /* SKPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPlugin.h; sourceTree = "<group>"; };
+		8360B59F144E663200E1FDF2 /* SKPluginMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPluginMaster.h; sourceTree = "<group>"; };
+		8360B5A0144E66E100E1FDF2 /* SPSamplePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSamplePlugin.h; sourceTree = "<group>"; };
+		8360B5A1144E66E100E1FDF2 /* SPSamplePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSamplePlugin.m; sourceTree = "<group>"; };
+		8360B5A3144E68C100E1FDF2 /* SPSampleAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSampleAction.h; sourceTree = "<group>"; };
+		8360B5A4144E68C100E1FDF2 /* SPSampleAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSampleAction.m; sourceTree = "<group>"; };
+		8360B5A6144E6C4600E1FDF2 /* SPSampleActionOptionSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSampleActionOptionSheetController.h; sourceTree = "<group>"; };
+		8360B5A7144E6C4600E1FDF2 /* SPSampleActionOptionSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSampleActionOptionSheetController.m; sourceTree = "<group>"; };
+		8360B5A9144E6CB000E1FDF2 /* SampleAction.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleAction.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				8360B55B144E62EA00E1FDF2 /* SamplePlugin */,
+				8360B599144E663200E1FDF2 /* SKPlugin */,
 				8360B554144E62EA00E1FDF2 /* Frameworks */,
 				8360B553144E62EA00E1FDF2 /* Products */,
 			);
@@ -46,7 +64,7 @@
 		8360B553144E62EA00E1FDF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8360B552144E62EA00E1FDF2 /* SamplePlugin.bundle */,
+				8360B552144E62EA00E1FDF2 /* SamplePlugin.skplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +92,13 @@
 			isa = PBXGroup;
 			children = (
 				8360B55C144E62EA00E1FDF2 /* Supporting Files */,
+				8360B5A0144E66E100E1FDF2 /* SPSamplePlugin.h */,
+				8360B5A1144E66E100E1FDF2 /* SPSamplePlugin.m */,
+				8360B5A3144E68C100E1FDF2 /* SPSampleAction.h */,
+				8360B5A4144E68C100E1FDF2 /* SPSampleAction.m */,
+				8360B5A6144E6C4600E1FDF2 /* SPSampleActionOptionSheetController.h */,
+				8360B5A7144E6C4600E1FDF2 /* SPSampleActionOptionSheetController.m */,
+				8360B5A9144E6CB000E1FDF2 /* SampleAction.xib */,
 			);
 			path = SamplePlugin;
 			sourceTree = "<group>";
@@ -86,6 +111,19 @@
 				8360B561144E62EA00E1FDF2 /* SamplePlugin-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8360B599144E663200E1FDF2 /* SKPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				8360B59A144E663200E1FDF2 /* SKAction.h */,
+				8360B59B144E663200E1FDF2 /* SKActionContext.h */,
+				8360B59C144E663200E1FDF2 /* SKActionMaster.h */,
+				8360B59D144E663200E1FDF2 /* SKOptionSheetController.h */,
+				8360B59E144E663200E1FDF2 /* SKPlugin.h */,
+				8360B59F144E663200E1FDF2 /* SKPluginMaster.h */,
+			);
+			path = SKPlugin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +143,7 @@
 			);
 			name = SamplePlugin;
 			productName = SamplePlugin;
-			productReference = 8360B552144E62EA00E1FDF2 /* SamplePlugin.bundle */;
+			productReference = 8360B552144E62EA00E1FDF2 /* SamplePlugin.skplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -115,6 +153,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Oomph;
 			};
 			buildConfigurationList = 8360B54C144E62EA00E1FDF2 /* Build configuration list for PBXProject "SamplePlugin" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -139,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8360B560144E62EA00E1FDF2 /* InfoPlist.strings in Resources */,
+				8360B5AA144E6CB000E1FDF2 /* SampleAction.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +189,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8360B5A2144E66E100E1FDF2 /* SPSamplePlugin.m in Sources */,
+				8360B5A5144E68C100E1FDF2 /* SPSampleAction.m in Sources */,
+				8360B5A8144E6C4600E1FDF2 /* SPSampleActionOptionSheetController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,24 +257,34 @@
 		8360B565144E62EA00E1FDF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SamplePlugin/SamplePlugin-Prefix.pch";
 				INFOPLIST_FILE = "SamplePlugin/SamplePlugin-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = skplugin;
 			};
 			name = Debug;
 		};
 		8360B566144E62EA00E1FDF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SamplePlugin/SamplePlugin-Prefix.pch";
 				INFOPLIST_FILE = "SamplePlugin/SamplePlugin-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = skplugin;
 			};
 			name = Release;
 		};
@@ -254,6 +307,7 @@
 				8360B566144E62EA00E1FDF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
