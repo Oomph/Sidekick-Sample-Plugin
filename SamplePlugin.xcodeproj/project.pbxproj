@@ -257,7 +257,7 @@
 		8360B565144E62EA00E1FDF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_ENABLE_OBJC_GC = required;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SamplePlugin/SamplePlugin-Prefix.pch";
 				INFOPLIST_FILE = "SamplePlugin/SamplePlugin-Info.plist";
@@ -274,7 +274,7 @@
 		8360B566144E62EA00E1FDF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_ENABLE_OBJC_GC = required;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SamplePlugin/SamplePlugin-Prefix.pch";
 				INFOPLIST_FILE = "SamplePlugin/SamplePlugin-Info.plist";
